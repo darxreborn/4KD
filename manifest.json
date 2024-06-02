@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "4KD",
+    "version": "1.0",
+    "action": {
+        "default_icon": {
+            "16": "youtubedl.png",
+            "48": "youtubedl.png",
+            "128": "youtubedl.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting", "notifications", "tabs", "storage"]
+}
